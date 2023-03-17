@@ -64,19 +64,19 @@
 }
 
 @media (min-width: 750px) and (max-width: 1024px) {
-  .banner--medium:not(.banner--adapt) {
+  .banner.banner--content-align-center.banner--content-align-mobile-center.banner--medium:not(.banner--adapt) {
     min-height: 56rem;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1499px) {
-  .banner--medium:not(.banner--adapt) {
+  .banner.banner--content-align-center.banner--content-align-mobile-center.banner--medium:not(.banner--adapt) {
     min-height: 54rem;
   }
 }
 
 @media (min-width: 1500px) {
-  .banner--medium:not(.banner--adapt) {
+  .banner.banner--content-align-center.banner--content-align-mobile-center.banner--medium:not(.banner--adapt) {
     min-height: 100rem;
   }
 }
@@ -84,6 +84,10 @@
 @media screen and (min-width: 750px) {
   .banner {
     flex-direction: row;
+  }
+
+  .banner--medium:not(.banner--adapt) {
+    min-height: 56rem;
   }
 
   .banner--small:not(.banner--adapt) {
