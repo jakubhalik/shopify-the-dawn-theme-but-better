@@ -26,9 +26,9 @@
 {%- assign product_limit = section.settings.product_count -%}
 <div class="isolate gradient">
     <div class="collection section-{{ section.id }}-padding">
-        <div class="justify-between pr-1p6rm-3r" style="padding-bottom: 10px;">
+        <div class="justify-between page-width" style="padding-bottom: 10px;">
             {% if section.settings.title != blank %}
-                <span class="product-slider--h2 pl-1rm-3r mtm2p"
+                <span class="product-slider--h2 mtm2p"
                       style="line-height: 1;">
                     {{ section.settings.title | escape }}</span>
             {% endif %}
@@ -64,7 +64,7 @@
             <div class="slider-buttons--product-slider no-js-hidden">
                 <button
                     type="button"
-                    class="rotation absolute left-8 xl:left-14 translate-y-1/2
+                    class="rotation absolute left-5 left-calc translate-y-1/2
                            w-5r h-5r flex justify-center items-center rounded-full
                            shadow-md z-10 bg-255-t-0-b-n-bs-h-bg-0-t-255-b-n-bs
                            display-none left-button"
@@ -81,7 +81,7 @@
                 </button>
                 <button
                     type="button"
-                    class="absolute right-8 xl:right-14 translate-y-1/2
+                    class="absolute right-5 right-calc translate-y-1/2
                            w-5r h-5r flex justify-center items-center rounded-full
                            shadow-md z-10 bg-255-t-0-b-n-bs-h-bg-0-t-255-b-n-bs
                            right-button"
