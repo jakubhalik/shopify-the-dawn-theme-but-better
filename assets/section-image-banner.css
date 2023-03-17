@@ -71,7 +71,7 @@
 
 @media (min-width: 1025px) and (max-width: 1499px) {
   .banner--medium:not(.banner--adapt) {
-    min-height: 55rem;
+    min-height: 54rem;
   }
 }
 
