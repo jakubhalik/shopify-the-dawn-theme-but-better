@@ -3138,3 +3138,15 @@ details-disclosure > details {
 .display-none {
   display: none;
 }
+
+@media (max-width: 749px) {
+.margin-top-12rem {
+  margin-top: 12rem !important;
+}
+}
+
+@media (max-width: 749px) {
+  .border-only-mobile:after {
+    --border-opacity: none !important;
+  }
+}
