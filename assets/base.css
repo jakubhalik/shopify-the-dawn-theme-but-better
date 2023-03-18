@@ -3149,4 +3149,7 @@ details-disclosure > details {
   .border-only-mobile:after {
     --border-opacity: none !important;
   }
+  .border-only-mobile {
+    padding: 0;
+  }
 }
